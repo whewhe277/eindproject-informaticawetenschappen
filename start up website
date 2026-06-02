@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Samko Padel</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">SAMKO</div>
+        <img src="logo startup.png">
+    <nav>
+        <a href="/home">Home</a>
+        <a href="/Shop">Shop</a>
+        <a href="/missie en visie">missie en visie</a>
+        <a href="/Contact">contact</a>
+    </nav>
+    </header>
+
+        #sidebar met andere merken
+        <main>
+    <section>
+        <aside class="aanbod_merken">
+            <a href="/Samko">Samko</a>
+            <a href="/Nike">Nike</a>
+            <a href="/adidas">Adidas</a>
+            <a href="/Bullpadel">Bullpadel</a>
+            <a href="/accesoires">Accesoires</a>
+        </aside>
+
+        #knop in het midden
+        <div class="middenknop">
+        <a href="Start your padel journey now!"></a>
+        </div>
+    </section>
+        </main>
+    #footer met contact gegevens
+    <footer>
+        <h3>missie en visie</h3>
+        <p>Bij Samko willen we dat iedereen kan sporten op topniveau door goede paddelspullen aan te bieden voor eerlijke prijzen. Met iedere kwalitatieve slag, een stapje dichter bij een betere wereld!</p>
+
+    </footer>
+</body>
+</html>
+#te doen: --> footer
+          --> css file maken
+        ---> java script
+        ---->debuggen
+        ---> links laten werken vb:"navbar-->home"
+        ---->zie vb output chatgpt
