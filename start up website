@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Samko Padel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -55,6 +56,7 @@
 #te doen: --> footer 1/2
           --> css file maken
         ---> java script
-        ---->debuggen
+        ----> debuggen
         ---> links laten werken vb:"navbar-->home"
         ---->zie vb output chatgpt
+        -----> OPLETTEN OP STYLE LINE IN HEADER
