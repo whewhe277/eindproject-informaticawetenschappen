@@ -1,4 +1,5 @@
 /* Dit maakt de achtergrond donker zoals op de foto */
+/* Dit maakt de achtergrond donker zoals op de foto */
 body {
     background-color: #0b0c10;
     color: white;
@@ -12,21 +13,33 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #1f2833;
+    background-image: url("logo-startup.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    
+
 }
 
 /* Dit maakt een mooie groene knop */
 .btn-green {
     background-color: #45a29e;
     color: white;
-    padding: 10px 20px;
+    padding: 50px 500px;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
+    button-position: center;
 }
+.middenknop{
+    font:Amasis MT Pro Black;
+    color:#99cc33
+    button-position:center;
+}
+    
