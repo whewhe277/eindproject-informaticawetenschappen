@@ -2,58 +2,71 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Samko Padel</title>
+    <title>SAMKO Padel Gear - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
     <header>
         <div class="logo">
-            <a href="/home">SAMKO</a>
+            <a href="index.html">SAMKO</a>
         </div>
-
-    <nav>
-        <div class="navbar">
-        <a href="/home">Home</a>
-        <a href="/Shop">Shop</a>
-        <a href="/missie en visie">missie en visie</a>
-        <a href="/Contact">contact</a>
-        </div>
-    </nav>
+        <nav>
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="Shop.html">Shop</a>
+                <a href="missievisie.html">Missie en Visie</a>
+                <a href="contact.html">Contact</a>
+                <a href="winkelwagen.html" class="cart-icon">
+                    <img src="shopping-cart-wit.png" alt="Winkelwagen">
+                </a>
+            </div>
+        </nav>
     </header>
 
-
-        <main>
-    <aside class="aanbod_merken">
-        <a href="/Samko">Samko</a>
-        <a href="/Nike">Nike</a>
-        <a href="/adidas">Adidas</a>
-        <a href="/Bullpadel">Bullpadel</a>
-        <a href="/accesoires">Accesoires</a>
-    </aside>
-
-    <div class="middenknop">
-        <a href="shop">
-            <button class="start-btn">Start your padel journey now!</button>
-        </a>
-    </div>
-</main>
-
+    <main class="hero-section">
+        <h1>Start your padel journey now!</h1>
+        <a href="Shop.html" class="hero-btn">Bekijk de Shop</a>
+        <div class="brands-container">
+            <p class="brands-title">Onze Merken</p>
+            <div class="brands-grid">
+                <div class="brand-item" style="border-color: #00ff66; color: #00ff66;">SAMKO</div>
+                <div class="brand-item">Nike</div>
+                    <a href="Shop.html"></a>
+                <div class="brand-item">Adidas</div>
+                    <a href="Shop.html"></a>
+                <div class="brand-item">Bullpadel</div>
+                    <a href="Shop.html"></a>
+                <div class="brand-item">Accessoires</div>
+                    <a href="Shop.html"></a>
+            </div>
+        </div>
+    </main>
 
     <footer class="footer">
-        <div class="footer">
+        <div class="footer-copyright">
             &copy;2026 SAMKO Padel Gear. Alle rechten voorbehouden.
         </div>
-        <div class="foot-contact"></div>
-        <strong>Contact:</strong>samko@gmail.com,0465387252
-        <h3>missie en visie</h3>
-        <p>Bij Samko willen we dat iedereen kan sporten op topniveau door goede paddelspullen aan te bieden voor eerlijke prijzen. Met iedere kwalitatieve slag, een stapje dichter bij een betere wereld!</p>
-        <img src="artsen zonder grenzen.png" alt="Artsen zonder grenzen">
-        <img src="Oxfam.png" alt="Oxfam">
-        <img src="Logo_of_UNICEF_(cropped).png" alt="Unicef">
+        <div class="footer-logos">
+            <a href="https://www.instagram.com/samkopdl/">
+                <img src="logo_insta.png" alt="Instagram">
+            </a>
+            <img src="artsen zonder grenzen.png" alt="Artsen zonder grenzen">
+            <img src="Oxfam.png" alt="Oxfam">
+            <img src="Logo_of_UNICEF_(cropped).png" alt="Unicef">
+        </div>
     </footer>
+    <div id="cookie-banner" class="cookie-popup">
+        <span>Deze website gebruikt cookies om jouw padel-ervaring te verbeteren.</span>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="cookie-btn accept">Accepteren</button>
+            <button id="reject-cookies" class="cookie-btn reject">Weigeren</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
-#te doen: --> footer netjes maken( contact +missie en visie)
-        ---> java script
-        ---> links laten werken vb:"navbar-->home"
+        te doen;
+            --> finishing touches op github
+            --> criterialijst nagaan
